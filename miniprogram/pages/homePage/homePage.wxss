@@ -1,0 +1,91 @@
+page {
+      background: #F7BEDD;
+}
+
+.survey ,.recentRecommend{
+      width: 100%;
+      padding: 10px 10px 0 10px;
+	background: #FFD8F4;
+	margin-bottom: 5px;
+}
+
+.row1Img, .row2Img {
+      padding: 0 20px;
+}
+
+.row1Img>image {
+      width: 100%;
+      height: 180px;
+}
+
+.row2Img>view {
+      display: inline-block;
+      height: 150px;
+      width: 31%;
+      margin-right: 3.5%;
+      position: relative;
+}
+
+.row2Img>view>image {
+      width: 100%;
+      height: 100%;
+}
+
+.row2Img>view:nth-child(3) {
+      margin-right: 0;
+}
+.recentRecommend{
+	padding-top: 0;
+}
+.txt {
+      position: absolute;
+	top:20px;
+	width:100%;
+}
+
+.txt>text ,.title>text{
+      color: white;
+      font-size: 14px;
+      display: block;
+	text-align: center;
+	width:100%;
+}
+.title{
+	height:30px;
+}
+.title>text{
+	font-size: 16px;
+	line-height: 30px;
+}
+.title{
+     border-bottom:1px solid #F4F0ED;
+}
+.productDisplay{
+	padding:20px;
+}
+.productDisplay swiper{
+	width:100%;
+	height:280px;
+}
+.slide-image{
+	width: 100%;
+}
+.strategy{
+	width:49%;
+	height:140px;
+	margin: 0 2% 2% 0;
+	float:left;
+}
+.strategy>image{
+	width:100%;
+	height: 80%;
+}
+.productDisplay>.strategy:nth-child(2),.productDisplay>.strategy:nth-child(4){
+	margin-right: 0;
+}
+.strategyName{
+      font-size: 14px;
+      display: block;
+	text-align: center;
+	line-break: 16px;
+}

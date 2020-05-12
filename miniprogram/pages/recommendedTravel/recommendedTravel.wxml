@@ -1,0 +1,71 @@
+<!--pages/userConsole/userConsole.wxml-->
+<view class="container">
+<video src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400" autoplay="true"></video>
+      <!-- <view class='firstScenery'>
+            <image src='http://88853.s81i.faiusr.com/4/102/AFEIlbYFEAQYACCRnKzWBSjUk9CgATDuBTj8AkBm.png'></image>
+      </view> -->
+      <view class='recentRecommend'>
+            <view class='title'>
+                  <text>— 国内游 —</text>
+            </view>
+            <view class='productDisplay'>
+                  <view class='strategy'>
+                        <image src='http://88853.s81i.faiusr.com/4/102/AFEIlbYFEAQYACDOmqzWBSiwnL6fAzDKAjjcAUBm.png'></image>
+                        <text class='recommendRoute'>马尔代夫自由行攻略</text>
+                        <text class='price'>¥5600起</text>
+                  </view>
+                  <view class='strategy'>
+                        <image src='http://88853.s81i.faiusr.com/4/102/AFEIlbYFEAQYACDSmqzWBSig4OjwBjDKAjjcAUBm.png'></image>
+                        <text class='recommendRoute'>马尔代夫自由行攻略</text>
+                        <text class='price'>¥5600起</text>
+                  </view>
+            </view>
+      </view>
+<view class='recentRecommend'>
+            <view class='title'>
+                  <text>— 出境游 —</text>
+            </view>
+            <view class='productDisplay'>
+                  <view class='strategy'>
+                        <image src='http://88853.s81i.faiusr.com/4/102/AFEIlbYFEAQYACDOmqzWBSiwnL6fAzDKAjjcAUBm.png'></image>
+                        <text class='recommendRoute'>马尔代夫自由行攻略</text>
+                        <text class='price'>¥5600起</text>
+                  </view>
+                  <view class='strategy'>
+                        <image src='http://88853.s81i.faiusr.com/4/102/AFEIlbYFEAQYACDSmqzWBSig4OjwBjDKAjjcAUBm.png'></image>
+                        <text class='recommendRoute'>马尔代夫自由行攻略</text>
+                        <text class='price'>¥5600起</text>
+                  </view>
+			 <view class='strategy'>
+                        <image src='http://88853.s81i.faiusr.com/4/102/AFEIlbYFEAQYACDOmqzWBSiwnL6fAzDKAjjcAUBm.png'></image>
+                        <text class='recommendRoute'>马尔代夫自由行攻略</text>
+                        <text class='price'>¥5600起</text>
+                  </view>
+                  <view class='strategy'>
+                        <image src='http://88853.s81i.faiusr.com/4/102/AFEIlbYFEAQYACDSmqzWBSig4OjwBjDKAjjcAUBm.png'></image>
+                        <text class='recommendRoute'>马尔代夫自由行攻略</text>
+                        <text class='price'>¥5600起</text>
+                  </view>
+            </view>
+      </view>
+	<view class='recentRecommend surround'>
+            <view class='title'>
+                  <text>— 周边游 —</text>
+            </view>
+            <view class='productDisplay'>
+                  <view class='strategy'>
+                        <image src='http://88853.s81i.faiusr.com/4/102/AFEIlbYFEAQYACDOmqzWBSiwnL6fAzDKAjjcAUBm.png'></image>
+                        <text class='recommendRoute'>马尔代夫自由行攻略</text>
+                        <text class='price'>¥5600起</text>
+                  </view>
+                  <view class='strategy'>
+                        <image src='http://88853.s81i.faiusr.com/4/102/AFEIlbYFEAQYACDSmqzWBSig4OjwBjDKAjjcAUBm.png'></image>
+                        <text class='recommendRoute'>马尔代夫自由行攻略</text>
+                        <text class='price'>¥5600起</text>
+                  </view>
+            </view>
+      </view>
+</view>
+
+
+

@@ -1,0 +1,51 @@
+<!--homePage.wxml-->
+<view>
+
+<view class="container" >
+ <!-- <audio controls="true" id="myAudio"></audio>  -->
+      <view class="survey">
+            <view class="row1Img">
+                  <image src="http://88853.s81i.faiusr.com/4/102/AFEIlbYFEAQYACDMl6zWBSjsj97CBDCoBTiQA0Bm.png"></image>
+            </view>
+            <view class="row2Img">
+                  <view wx:for="{{travelType}}" bindtap="gotoRecommend" wx:key="item">
+                        <image src="{{item.typeImg}}"></image>
+                        <view class='txt'>
+                              <text>{{item.typeName}}</text>
+                              <text>{{item.typeTxt}}</text>
+                        </view>
+                  </view>
+            </view>
+      </view>
+      <view class='recentRecommend'>
+            <view class='title'>
+                  <text>— 近期推荐 —</text>
+            </view>
+            <view class='productDisplay'>
+                  <swiper indicator-dots='true' indicator-color='white' indicator-active-color='#EDADC5' autoplay='true' interval='2000' circular='true'>
+                        <swiper-item wx:for='{{swiperAry}}' wx:key="item">
+                              <image src="{{item.swiperImg}}" class="slide-image" />
+					<text class='recommendRoute'>{{item.swiperName}}</text>
+					<text class='price'>{{item.swiperPrice}}</text>
+                        </swiper-item>
+                  </swiper>
+            </view>
+      </view>
+      <view class='recentRecommend'>
+            <view class='title'>
+                  <text>— 旅游攻略 —</text>
+            </view>
+            <view class='productDisplay'>
+                  <view class='strategy' wx:for="{{strategyAry}}" bindtap="gotoStrategy" wx:key="item">
+                        <image src='{{item.strategyImg}}' bindlongtap='saveImgToLocal'></image>
+                        <text class='strategyName'>{{item.strategyName}}</text>
+                  </view>
+            </view>
+      </view>
+</view>
+<view class='footer'>
+     <button open-type='contact' bindcontact='askDetail'>客服咨询</button>
+	<!-- <button open-type='getPhoneNumber' bindgetphonenumber='callPhoneNumber'>电话咨询</button> 获取电话 -->
+	<button bindtap='callPhoneNumber'>电话咨询</button>
+</view>
+</view>

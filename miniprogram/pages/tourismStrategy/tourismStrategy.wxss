@@ -1,0 +1,17 @@
+@import '../../app.wxss';
+
+@import "../../style/guide.wxss";
+
+.black {
+  color: black;
+}
+.recommendFirst{position: relative}
+.description{
+	position: absolute;
+	bottom:5px;
+	left:0;
+	color: white;
+	padding: 5px;
+	background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.16));
+	font-size: 16px;
+}

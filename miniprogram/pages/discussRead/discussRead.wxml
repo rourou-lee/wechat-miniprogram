@@ -1,0 +1,188 @@
+<mp-navigation-bar loading="{{loading}}" show="{{show}}" animated="{{animated}}" color="{{color}}" background="{{background}}" title="学习培训" back="{{false}}">
+  <view slot='left'>
+    <view class="sc-gqjmRU gBcYTa" style="background-color: rgba(255, 255, 255, 0.6); border-color: rgba(0, 0, 0, 0.05);">
+   <view class="sc-fjdhpX fDwLsC">
+    <icon class="t-icon t-icon-tback"></icon>
+   </view>
+   <span class="sc-VigVT dhLBTW" style="background: rgba(0, 0, 0, 0.15);"></span>
+   <view class="sc-fjdhpX fDwLsC">
+    <icon class="t-icon t-icon-menu"></icon>
+   </view>
+  </view>
+  </view>
+</mp-navigation-bar>
+<!-- 阅读部分 -->
+<view class="reader" bind:longtap="touchStartFun" bind:touchmove="touchMoveFun" bind:touchend="touchEndFun">
+  <view class="h1">一带一路合作共赢的可持续发展之路新闻报道——人民网</view> 
+  <view class="reader-info">
+    <view class="reader-info-l">
+    <text>发布者</text>张烁</view>
+    <view class="reader-info-r">
+      <text>发布时间</text>2018/08/11
+    </view>
+  </view>
+  <view class="reader-con">
+  
+    <view class="chapter"><text selectable='true'>预测因子</text></view>
+    <view class="paragraph">
+      <text selectable='false'>图标是具有指代意义的具有标识性质的图形，它不仅是一种图形，更是一种标识，它具有高度浓缩并快捷传达信息、便于记忆的特性。</text>
+      <!-- <cover-view class="cover-view">
+          <cover-view class="container">
+            <cover-view class="flex-wrp" style="flex-direction:row;">
+              <button class="flex-item demo-text-1">发表意见</button>
+              <button class="flex-item demo-text-2">复制</button>
+            </cover-view>
+          </cover-view>
+        </cover-view> -->
+    </view>
+    <view class="paragraph">首先, 在开始使用图标之前, 您需要清楚地理解什么是图标, 它是怎么产生的。下面将介绍一下图标设计简史。</view>
+    <view class="paragraph">
+      如果我们在字典中查找 “图标” 这个词, 我们会遇到很多不同的意义, 从”一些神圣人物的代表”、”一个被崇拜的人或对象”到 ”计算机标志“。
+      <view class="bubble">
+        <icon class="t-icon t-icon-bubble"></icon>
+        <view class="num">3</view>
+      </view>
+    </view>
+    <view class="paragraph">图标是具有明确指代含义的计算机图形。其中桌面图标是软件标识，界面中的图标是功能标识。它源自于生活中的各种图形标识，是计算机应用图形化的重要组成部分。</view>
+    <view class="paragraph">图标是具有指代意义的具有标识性质的图形，它不仅是一种图形，更是一种标识，它具有高度浓缩并快捷传达信息、便于记忆的特性。它不仅历史久远，从上古时代的图腾，到现在具有更多含义和功能的各种图标，而且应用范围极为广泛，可以说它无所不在。</view>
+    <view class="paragraph">一个国家的图标就是国旗；一件商品的图标是注册商标；军队的图标是军旗；学校的图标是校徽；同时它也在各种公共设施中被广泛使用，如公厕标识、交通指示牌等等；</view>
+    <view class="paragraph">我们通过图标看到的不仅仅是图标本身，而是它所代表的内在含义。</view>
+    <view class="paragraph">最准确最简单的说法是：图标是以相似或类比的表现形式定义的有指代性质的图形符号。</view>
+    <view class="paragraph">它起源于拉丁词 ‘ eikṓn ‘意思是 “likeness, image” 得回溯到1565。</view>
+  </view>
+</view>
+
+<!-- 遮罩 -->
+<view class="shade"></view>
+
+<!-- 点条数出意见 -->
+<view class="opinion">
+  <view class="opinion-item">
+    <view class="opinion-t">
+      <view class="opinion-tl">
+        <image class="portrait" src="/images/team.gif"></image>李晓楠
+      </view>
+      <view class="opinion-tr date">2019/03/02</view>
+    </view>
+    <view class="opinion-b">很多人会把「空」解释为有意的留白，其实这是一种误区，合理的留白目的是：留出喘息空间、留出视觉中心、提升画面品牌调性，但并不会因为用...</view>
+  </view>
+
+  <view class="opinion-item">
+    <view class="opinion-t">
+      <view class="opinion-tl">
+        <image class="portrait" src="/images/team.gif"></image>邱菊
+      </view>
+      <view class="opinion-tr date">2019/03/02</view>
+    </view>
+    <view class="opinion-b">很多人会把「空」解释为有意的留白，其实这是一种误区，合理的留白目的是：留出喘息空间、留出视觉中心、提升画面品牌调性，但并不会因为用...</view>
+  </view>
+
+  <view class="opinion-item">
+    <view class="opinion-t">
+      <view class="opinion-tl">
+        <image class="portrait" src="/images/team.gif"></image>张钰
+      </view>
+      <view class="opinion-tr date">2019/03/02</view>
+    </view>
+    <view class="opinion-b">很多人会把「空」解释为有意的留白，其实这是一种误区，合理的留白目的是：留出喘息空间、留出视觉中心、提升画面品牌调性，但并不会因为用...</view>
+  </view>
+</view>
+
+<!-- 全部意见 -->
+<view class="opinions">
+  <icon class="t-icon t-icon-close"></icon>
+  <view class="opinions-t">全部意见</view>
+  <view class="opinion-item">
+    <view class="opinion-t">
+      <view class="opinion-tl">
+        <image class="portrait" src="/images/team.gif"></image>张钰
+      </view>
+      <view class="opinion-tr date">2019/03/02</view>
+    </view>
+    <view class="opinion-b">
+    <view class="opinion-con">很多人会把「空」解释为有意的留白，其实这是一种误区，合理的留白目的是：留出喘息空间、留出视觉中心、提升画面品牌调性，但并不会因为用...</view>
+    <view class="opinion-con-b">
+      当通知内容变得次要且被滥用之后，它仿佛成了一种违背则的功能 —— 中断用户当前行为。因为它打破了用户与间的层级关系，破局至产品之外来吸引用户的注
+    </view>
+    <view class="reply">
+      <view class="reply-l">
+        <view class="reply-back">
+          <icon class="t-icon t-icon-back"></icon>回复
+        </view>
+        <button class="reply-num">5回复</button>
+      </view>
+      <view class="reply-r">
+        <icon class="t-icon t-icon-del"></icon>删除
+      </view>
+    </view>
+    </view>
+  </view>
+  <!-- 全部评论 -->
+  <view class="comments">
+    <view class="comments-t">全部评论</view>
+    <view class="opinion-item">
+      <view class="opinion-t">
+        <view class="opinion-tl">
+          <image class="portrait" src="/images/team.gif"></image>邱菊
+        </view>
+        <view class="opinion-tr date">2019/03/02</view>
+      </view>
+      <view class="opinion-b">
+        <view class="opinion-con">很多人会把「空」解释为有意的留白，其实这是一种误区，合理的留白目的是：留出喘息空间、留出视觉中心、提升画面品牌调性，但并不会因为用...</view>
+        <view class="reply-back"><icon class="t-icon t-icon-back"></icon>回复</view>
+      </view>
+    </view>
+
+    <view class="opinion-item">
+      <view class="opinion-t">
+        <view class="opinion-tl">
+          <image class="portrait" src="/images/team.gif"></image>邱菊
+        </view>
+        <view class="opinion-tr date">2019/03/02</view>
+      </view>
+      <view class="opinion-b">
+        <view class="opinion-con">很多人会把「空」解释为有意的留白，其实这是一种误区，合理的留白目的是：留出喘息空间、留出视觉中心、提升画面品牌调性，但并不会因为用...</view>
+        <view class="reply-back"><icon class="t-icon t-icon-back"></icon>回复</view>
+      </view>
+    </view>
+    
+    <text class="loaded-all">已显示全部评论</text>
+
+  </view>
+</view>
+<!-- 左滑目录 -->
+<view class="menu">
+  <view class="menu-t">大纲</view>
+  <view class="list">
+    <view class="list-li preface cur">
+      前言 每个人都会遇到他所愿的
+    </view>
+    <view class="list-li">
+        <icon class="t-icon t-icon-down"></icon>
+        <view class="list-t">第一章 每个人都会遇到他所愿的</view>
+        <view class="list-ul">
+          <view class="list-li">
+            <icon class="t-icon t-icon-down"></icon>
+            <view class="list-t">第一章 每个人都会遇到他所愿的</view>
+            <view class="list-ul">
+              <view class="list-li"><view class="list-t">第一章 每个人都会遇到他所愿的</view></view>
+              <view class="list-li"><view class="list-t">第一章 每个人都会遇到他所愿的</view></view>
+            </view>
+          </view>
+          <view class="list-li"><view class="list-t">第一章 每个人都会遇到他所愿的</view></view>
+        </view>
+    </view>
+   
+  </view>
+</view>
+
+<!-- 尾部 默认没有类名expand，当显示全部意见时加上 -->
+  <view class="page-footer expand">
+    <icon class="t-icon t-icon-edit"></icon>
+    <textarea placeholder="写评论" placeholder-class="textarea" class="comment-textarea"></textarea>
+    
+    <view slot="title" class="comment-num">
+      <icon class="t-icon t-icon-comment2"></icon>
+      <mp-badge content="256" style="position: absolute;top: -.4em;right: -1.2em;"/>
+    </view>
+  </view>

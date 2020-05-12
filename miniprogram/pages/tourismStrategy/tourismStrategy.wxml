@@ -1,0 +1,17 @@
+<view class="container">
+<view class='firstScenery recommendFirst' bindtap="gotoStrategyDetailPage" data-title='almost lover'>
+            <image src='http://46733.s81i.faiusr.com/2/107/AFEIje0CEAIYACCn29HVBSjP0t7-BzDuBTj8AkBr.jpg' ></image>
+		<span class="description" >I never want to see you unhappy</span>
+		<!-- <p wx:if="!flag1">只能说我瘦了，也许是你胖了</p> -->
+      </view>
+	<view class='firstScenery recommendFirst'>
+            <image src='http://46733.s81i.faiusr.com/2/107/AFEIje0CEAIYACCp29HVBSjeyYCWBjDuBTj8AkBr.jpg' ></image>
+		<span class="description" >the truth that you leave</span>
+		<!-- <p wx:if="!flag2">我说了所有的黄</p> -->
+      </view> 
+	<view class='firstScenery recommendFirst'>
+            <image src='http://46733.s81i.faiusr.com/2/107/AFEIje0CEAIYACCq29HVBSioyZfhBTDuBTj8AkBr.jpg' ></image>
+		<span class="description" >the sweetest sadness in your eyes</span>
+		<!-- <p wx:if="!flag3">你全都相信</p> -->
+      </view> 
+</view>

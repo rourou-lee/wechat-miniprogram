@@ -1,0 +1,129 @@
+.weui-navigation-bar{border-bottom: 1rpx solid #e1e2e5;}
+.reader{background: #fff;padding: 0 20rpx;}
+.h1{font-size: 44rpx;font-weight: bold;line-height: 60rpx;padding: 26rpx 0;}
+.reader-info{padding: 20rpx 0;color: #999;font-size: 24rpx;overflow: hidden;}
+.reader-info-l{float: left;}
+.reader-info-r{float: right;}
+.reader-info text{margin-right: 18rpx;}
+.reader-con{color: #333;line-height: 50rpx;padding-bottom: 93rpx;}
+.chapter,.paragraph{display: block;}
+.chapter{font-size: 34rpx;}
+.paragraph{font-size: 30rpx;text-indent: 2em;position: relative;}
+.page-footer{position: fixed;width: 100%; height: 93rpx;padding: 16rpx 20rpx;box-shadow: 0px 0px 10px 0px #dddddd;bottom: 0;background: #fff;box-sizing: border-box}
+.t-icon-edit{width: 24rpx;height: 28rpx;position: absolute;top: 32rpx;left: 53rpx;z-index: 10;}
+.textarea-container{position: relative;}
+.comment-textarea{padding-left: 72rpx;font-size: 28rpx;border-radius: 30rpx;background: #f5f5f5;padding-top: 16rpx;height: 60rpx;box-sizing: border-box}
+.textarea{color: #333;}
+.comment-num{position: absolute;right: 65rpx;top: 22rpx;z-index: 10;}
+.t-icon-comment2{width: 43rpx;height: 42rpx;}
+.comment-num .weui-badge{background: #e40808;font-size: 20rpx;}
+/* 气泡 */
+.bubble{position: absolute;right: -8rpx;top:10rpx; width: 30rpx;text-align: center; height: 30rpx;line-height: 30rpx; font-size: 22rpx;color: #fff;text-indent: 0;}
+.t-icon-bubble{width: 30rpx; height: 30rpx;position: absolute;z-index: 1;left: 0;top: 0;}
+.num{position: relative;z-index: 2;}
+/* 左上角返回和菜单 */
+.gBcYTa {
+    display: flex;
+    width: 87px;
+    line-height: 1;
+    font-size: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 27px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.25);
+    border-image: initial;
+}
+.fDwLsC {
+    display: flex;
+    height: 30rpx;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    flex: 1 1 0%;
+    padding: 6.4px 0px;
+}
+.dhLBTW {
+    display: inline-block;
+    min-width: 1px;
+    height: 17.2px;
+    background: rgba(255, 255, 255, 0.25);
+}
+.t-icon-tback{width: 34rpx;height: 30rpx;}
+.t-icon-menu{width: 52rpx;height: 40rpx;}
+/* 长按发表意见和复制 */
+.cover-view {display: none;
+  position: absolute;
+  top: calc(50% - 47rpx);
+  left: calc(50% - 142.5rpx);
+  height: 98rpx;
+}
+
+.flex-wrp{
+  display:flex;
+}
+
+.flex-item{
+  width: 162rpx;
+  height: 80rpx;line-height: 80rpx;
+  padding: 0 26rpx;
+  font-size: 28rpx;color: #fff;background: #000;
+  margin-right: 1rpx;text-indent: 0;
+}
+.demo-text-1{border-top-right-radius: 0;border-bottom-right-radius: 0;position: relative;}
+.demo-text-1::before{content: '';position: absolute;width: 1rpx;height: 100%;right: 0;background: #fff;opacity: .8;}
+.flex-wrp:after{content:'';position:absolute;bottom: -22rpx;
+left:108rpx;width:0;height:0;border-width:20rpx;border-style:solid;border-color:transparent;border-top-color:currentColor;color:#000;}
+.demo-text-2{width: 104rpx;border-top-left-radius: 0;border-bottom-left-radius: 0;}
+/* 左滑目录 */
+.shade{display: none;position: fixed;top: 0;bottom: 0;left: 0;right: 0;background: rgba(0,0,0,.3);z-index: 6000;}
+.menu{display: none; position: fixed;top:0;bottom: 0;left: 13%;right: 0;z-index: 9999; height: 100%;background: #fff;}
+.menu-t{height: 130rpx;font-size: 40rpx;border-bottom: 1rpx solid #ddd;padding: 47rpx 0 0 27rpx;box-sizing: border-box;}
+.list{padding-left: 52rpx;font-size: 30rpx;line-height: 72rpx;}
+.list .cur{color: #4480ee;}
+.list-li{position: relative;padding: 8rpx 0;}
+.preface{padding-right: 20rpx;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.list>.list-li{border-bottom: 1rpx solid #ddd;}
+.list-li .list-li{font-size: 28rpx;padding-left: 72rpx;}
+.list-t{padding-right: 80rpx;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.t-icon-down{position: absolute;right: 40rpx;top: 36rpx;width: 40rpx;height: 24rpx;}
+/* 条数意见列表 */
+.opinion{display: none; background: #fff;border-radius: 8rpx;padding: 0 26rpx;position: absolute;left: 40rpx;right: 40rpx;max-height: 550rpx;top: 50%;transform: translateY(-50%);z-index: 9999;font-size: 28rpx;overflow-y: auto;}
+.opinion-t{font-size: 24rpx;overflow: hidden;}
+.opinion .opinion-t{margin-bottom: 17rpx;}
+.opinion-tl{float: left;}
+.opinion-tr{float: right;}
+.portrait{width: 40rpx;height: 40rpx;margin-right: 16rpx;vertical-align: middle;}
+.opinion-b{line-height: 40rpx;}
+.opinion-item{padding: 28rpx 0;border-bottom: 1px solid #f5f5f5;}
+.opinion-item:last-child{border: none;}
+.date{color: #999;}
+/* 全部意见 */
+.opinions{display: none;position: fixed;bottom: 93rpx;top: 62rpx;border-top-left-radius: 20rpx;border-top-right-radius: 20rpx;background: #fff;z-index: 9999;font-size: 24rpx;overflow-y: auto;}
+.opinions-t{border-bottom: 1rpx solid #ddd;text-align: center;padding: 35rpx 28rpx 30rpx;}
+.t-icon-close{width: 32rpx;height: 32rpx;position: absolute; top: 41rpx;left: 28rpx;}
+.opinions .opinion-item{padding: 30rpx 20rpx;border-bottom: 1rpx solid #ddd;}
+.opinions .portrait{width: 60rpx;height: 60rpx;margin-right: 23rpx;}
+.opinions .opinion-tl{font-size: 28rpx;color: #384b7a;}
+.opinions .opinion-b{padding-left: 84rpx;}
+.opinion-con{font-size: 32rpx;line-height: 48rpx;}
+.opinion-con-b{width: 626rpx;max-height: 130rpx;background-color: #f9fafd;line-height: 32rpx;}
+.reply{overflow: hidden;padding: 22rpx 14rpx 0;}
+.reply-l{float: left;}
+.reply-r{float: right;}
+.reply .t-icon{margin-right: 11rpx;}
+.t-icon-back{width: 30rpx;height: 28rpx;}
+.t-icon-del{width: 27rpx;height: 30rpx;}
+.reply-l > view,
+.reply-num{display: inline-block;vertical-align: middle;}
+.reply-num{padding: 8rpx 18rpx; border-radius: 18rpx;margin-left: 21rpx;font-size: 24rpx;line-height: 1;}
+/* 全部评论 */
+.comments{padding: 24rpx 19rpx;}
+.loaded-all{color: #666;display: block; text-align: center;padding-left: 107rpx;font-size: 20rpx;}
+.comments .opinion-item{border-bottom: none;}
+.page-footer.expand{z-index: 9999;}
+.page-footer.expand .comment-num{display: none;}
+.page-footer.expand .comment-textarea{width: 100%;}

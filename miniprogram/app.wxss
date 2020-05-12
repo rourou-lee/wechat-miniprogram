@@ -1,0 +1,24 @@
+/**app.wxss**/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  background: #F7BEDD;
+  height:100%;
+} 
+.recommendRoute,.price{
+      font-size: 14px;
+	line-break: 16px;
+	display: block;
+	text-align: left;
+}
+.firstScenery{
+	width:100%;
+	background: #FFD8F4;
+	margin-bottom: 5px;
+}
+.firstScenery>image{
+	width:100%;
+	height:200px;
+}

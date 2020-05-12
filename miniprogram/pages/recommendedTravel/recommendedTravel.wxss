@@ -1,0 +1,24 @@
+@import '../../app.wxss';
+@import "../homePage/homePage.wxss";
+@import "../../style/guide.wxss";
+.firstScenery{
+	width:100%;
+	background: #FFD8F4;
+	margin-bottom: 5px;
+}
+.firstScenery>image{
+	width:100%;
+	height:200px;
+}
+.strategy{
+	padding-bottom: 5px;
+}
+.strategy image{
+	height: 75%;
+}
+.recentRecommend{
+	margin-bottom: 5px;
+}
+.surround{
+	margin-bottom: 0;
+}

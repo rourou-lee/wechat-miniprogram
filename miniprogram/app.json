@@ -1,0 +1,47 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/Login/Login",
+    "pages/homePage/homePage",
+    "pages/recommendedTravel/recommendedTravel",
+    "pages/tourismStrategy/tourismStrategy",
+    "pages/aboutUs/aboutUs",
+    "pages/discussRead/discussRead"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "我想知道你在哪"
+    }
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#EDADC5",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/homePage/homePage",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/recommendedTravel/recommendedTravel",
+        "text": "推荐行程"
+      },
+      {
+        "pagePath": "pages/tourismStrategy/tourismStrategy",
+        "text": "旅游攻略"
+      }
+    ],
+    "backgroundColor": "#EDADC5",
+    "color": "white",
+    "selectedColor": "#7C2E8C",
+    "borderStyle": "white"
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "sitemapLocation": "sitemap.json"
+}
